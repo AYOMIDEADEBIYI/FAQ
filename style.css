@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-image: url(/assets/images/background-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-color: hsl(275, 100%, 97%);
+
+}
+
+.container {
+    width: 90%;
+    margin: 100px auto;
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 16px;
+}
+
+.box-flex {
+    display: flex;
+    align-items: center;
+    color: black;
+
+}
+
+.box-flex h1 {
+    font-size: 2.5rem;
+}
+
+.questions {
+    margin-top: 30px;
+}
+
+.questions-icon-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#myButton {
+    cursor: pointer;
+}
+
+#minus {
+    display: none;
+}
+
+#answer-text {
+    display: none;
+}
+
+.paragraph {
+    color: hsl(292, 16%, 49%);
+    padding-top: 20px;
+    line-height: 1.4;
+}
+
+#answer-text2 {
+    display: none;
+}
+
+#answer-text3 {
+    display: none;
+}
+
+#answer-text4 {
+    display: none;
+}
+
+img {
+    cursor: pointer;
+}
+
+h3 {
+    transition: .4s;
+    color: rgba(17, 15, 15, 0.753);
+    font-weight: 900;
+}
+
+h3:hover {
+    color: hsl(294, 44%, 47%);
+}
+
+@media screen and (min-width: 596px) {
+    body {
+        background-image: url(/assets/images/background-pattern-desktop.svg);
+    }
+
+}
+
+@media screen and (min-width: 423px) {
+    .container {
+        width: 90%;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 60%;
+    }
+
+}
